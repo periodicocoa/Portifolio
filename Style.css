@@ -1,18 +1,21 @@
-        html {
-                font-size: 22px;
-        }
+       body {
+               background-color: #333 !important;
+               color: whitesmoke !important;
+       }
 
-        header {
-                background-color: #333;
-                color: whitesmoke;
-        }
+       .descricao {
+               max-width: 600px;
+               margin: 0 auto;
+               padding: 20px;
+       }
 
-        body {
-                background-color: #333;
-                color: whitesmoke;
-        }
+       .projetos img:hover {
+               transition-delay: 2s;
+               transform: scale(1.50)
+       }
 
-        main {
-                background-color: #333;
-                color: whitesmoke;
-        }
+       .projetos {
+        margin-top: 50px;
+        gap: 20px;
+  display: flex;
+       }
