@@ -1,21 +1,38 @@
-       body {
-               background-color: #333 !important;
-               color: whitesmoke !important;
-       }
+body {
+        background-color: #333333 !important;
+        color: whitesmoke !important;
+}
 
-       .descricao {
-               max-width: 600px;
-               margin: 0 auto;
-               padding: 20px;
-       }
+.descricao {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+}
 
-       .projetos img:hover {
-               transition-delay: 2s;
-               transform: scale(1.50)
-       }
+.card-img-top {
+        max-height: 135px;
+}
 
-       .projetos {
+.imgc:hover {
+        z-index: 1;
+        transition-delay: 2s;
+        transform: scale(1.50)
+}
+
+.fonts {
+        font-family: "Comic Relief", sans-serif;
+}
+
+.projetos {
         margin-top: 50px;
         gap: 20px;
-  display: flex;
-       }
+        display: flex;
+}
+
+.tema {
+        width: 150px;
+        position: fixed;
+        margin-top: 50px;
+        margin-left: 50px;
+        
+}
