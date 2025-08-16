@@ -30,9 +30,20 @@ body {
 }
 
 .tema {
-        width: 150px;
+        width: 15%;
         position: fixed;
-        margin-top: 50px;
-        margin-left: 50px;
+        margin-top: 5%;
+        margin-left: -3%;
+        z-index: 1;
+        
+}
+.ghb {
+        display: flex;
+}
+.footer {
+        margin-left: 25px;
+}
+
+.projetos {
         
 }
